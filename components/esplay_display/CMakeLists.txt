@@ -1,0 +1,3 @@
+idf_component_register(SRCS "display.c"
+    INCLUDE_DIRS "include"
+    REQUIRES ugui esp_lcd esp_driver_gpio esp_driver_ledc esp_lcd_ili9341)
